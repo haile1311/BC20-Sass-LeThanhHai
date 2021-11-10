@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #f5f9fe;
+  color: #656774;
+  font-size: 15px;
+  font-weight: 400;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 1260px;
+  margin: auto;
+}
+
+body {
+  background-image: url(/image/yellow_top_wave_01.png);
+  background-repeat: no-repeat;
+  background-size: 106%;
+  background-attachment: unset;
+}
+
+#header {
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+}
+
+#header .navbar .navbar-brand img {
+  height: 80px;
+  width: 80px;
+}
+
+#header .nav-item {
+  padding: 0 35px 0 0;
+}
+
+#header .nav-item a {
+  color: #181818;
+  cursor: pointer;
+}
+
+#header .topBarInMenuCell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .topBarInMenuCell .btButtonWidget {
+  font-size: 0.9em;
+  line-height: 1;
+  width: auto;
+  -webkit-box-shadow: 0 0 0 4rem #b61984 inset;
+          box-shadow: 0 0 0 4rem #b61984 inset;
+  padding: 1.1em 1.5em;
+  border-radius: 50px;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+#header .topBarInMenuCell .btButtonWidget .btButtonWidgetLink {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+}
+
+#header .topBarInMenuCell .btButtonWidget .btButtonWidgetLink .btIconWidgetIcon i {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  margin-right: 2px;
+}
+
+#header .topBarInMenuCell .btIconWidget {
+  margin-left: 1em;
+}
+
+#header .topBarInMenuCell .btIconWidget i {
+  color: #191919;
+}
+
+
+.section {
+  padding: 100px 0;
+}
+
+.section-title {
+  margin-bottom: 70px;
+  text-align: center;
+  color: 2.25rem;
+  font-size: 700;
+  font-weight: #1d365e;
+  letter-spacing: 0.015rem;
+}
+
+
+
+#header .nav-item .nav-link:hover {
+  color: #b61984;
+}
+
+@media screen and (max-width: 992px) {
+  #header .navbar-toggler {
+    background-color: #656774;
+  }
+  #header .navbar-nav {
+    text-align: center;
+  }
+}
+
+.aboutCarousel {
+  background-image: url(/image/yellow_top_wave_01.png);
+  background-size: cover;
+  background-position: center;
+  background-position: center bottom;
+  padding: 120px 0;
+}
+
+.aboutCarousel h1 {
+  color: 70px;
+  font-size: 700;
+  font-weight: #2a73dd;
+}
+
+.aboutCarousel h3 {
+  color: 1.6rem;
+  font-size: 600;
+  font-weight: #1d365e;
+  letter-spacing: 0.015rem;
+ 
+}
+
+.aboutCarousel p {
+  color: 1.1rem;
+  font-size: 400;
+  font-weight: #656774;
+  margin-bottom: 25px;
+}
+
+.carousel__left{
+  margin-top: 200px;
+}
+
+.carousel__left h3 {
+  color: #b61984;
+}
+
+.carousel__left h1 {
+  color: black;
+  font-weight: 800;
+}
+
+.bg__top__products {
+  background-image: url(/image/Violet_top_left_wave.png);
+  background-repeat: no-repeat;
+  background-size: 101%;
+  background-position-y: bottom;
+  padding: 150px;
+}
+
+.products {
+  position: relative;
+  background-color: #dcd1f0;
+  width: 100%;
+}
+
+.products .products__item {
+  width: 270px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.products .products__item .products__img img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.override {
+  z-index: 10;
+}
+
+.bg__bottom__products {
+  background-image: url(/images/Wave_White_bottom_right_shape_01.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 361px;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+}
+
+.products__text h3 {
+  margin-top: 10px;
+  color: #b61984;
+  font-size: 0.75rem;
+  margin-bottom: 0.7em;
+}
+
+.products__text h2 {
+  font-size: 1.55rem;
+  font-weight: 700;
+}
+
+.products__text p {
+  padding: 10px 0 35px 0;
+}
+
+
+@media screen and (max-width: 991.98px) {
+  .aboutCarousel {
+    padding: 150px 0;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .aboutCarousel h1 {
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .aboutCarousel {
+    padding: 100px 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
